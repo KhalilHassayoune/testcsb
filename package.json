@@ -1,15 +1,23 @@
 {
-  "dependencies": {
-    "react": "19.0.0",
-    "react-dom": "19.0.0"
+  "name": "phaser-plateforme-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
   "devDependencies": {
-    "serve": "14.2.4",
-    "@types/react": "19.0.0",
-    "@types/react-dom": "19.0.0",
-    "typescript": "5.7.2",
-    "parcel-bundler": "1.12.5",
-    "vite": "^6.0.0",
-    "@vitejs/plugin-react": "^4.2.1"
+    "serve": "^11.2.0"
   }
 }
